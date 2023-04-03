@@ -14,6 +14,11 @@ public class ComplexNumb {
         this.b = b;
     }
 
+    public ComplexNumb(double a){
+        this.a = a;
+        b = 0;
+    }
+
     /**
      * вывод комплексного числа
      * @return возвращает строку z=a+bi
